@@ -1,0 +1,17 @@
+{
+  "name": "@jwalton/jscodeshift-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jscodeshift": "^0.7.1",
+    "ast-node-builder": "^3.0.12",
+    "jscodeshift": "^0.10.0",
+    "recast": "^0.19.1"
+  }
+}
