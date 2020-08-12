@@ -1,3 +1,13 @@
+/*
+ * Test this with:
+ *
+ * $ npx jscodeshift -d -p -t scripts/react-text-refs.ts MyClass.js
+ *
+ * Run on an entire code base with:
+ *
+ * $ npx jscodeshift -t scripts/react-text-refs.ts ~/dev/myproject/src
+ *
+ */
 import {
   ASTPath,
   ClassDeclaration,
